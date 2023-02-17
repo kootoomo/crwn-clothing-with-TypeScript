@@ -5,4 +5,14 @@ export const AuthenticationContainer = styled.div`
   width: 900px;
   justify-content: space-between;
   margin: 30px auto;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+`;
+
+export const FormWrapper = styled.div`
+  margin-bottom: 30px;
 `;
